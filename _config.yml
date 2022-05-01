@@ -10,7 +10,7 @@ baseurl: ""
 permalink: pretty
 
 # Build settings
-#theme: minima
+theme: minima
 # Gems
 plugins:
   - jekyll-feed
