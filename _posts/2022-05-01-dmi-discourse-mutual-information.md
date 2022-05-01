@@ -5,7 +5,7 @@ date:   2022-05-01 11:02:34 +0530
 categories: nlp dialog
 ---
 
-This repository hosts the PyTorch-based implementation for the DMI model proposed in [**Representation Learning for Conversational Data using Discourse Mutual Information Maximization**](https://arxiv.org/abs/2112.05787).
+This repository hosts the PyTorch-based implementation for the DMI model proposed in our NAACL 2022 paper - [**Representation Learning for Conversational Data using Discourse Mutual Information Maximization**](https://arxiv.org/abs/2112.05787).
 
 ## Requirements
 
@@ -16,9 +16,14 @@ This repository hosts the PyTorch-based implementation for the DMI model propose
 
 ## Getting Access to the Source Code or Pretrained Models
 
-To get access to the source-code or pretrained-model checkpoints, please send a request to [AcadGrants@service.microsoft.com](mailto:AcadGrants@service.microsoft.com) and cc to *pawang.iitk [_at_] iitkgp.ac.in* and *bsantraigi [_at_] gmail.com*.
+To get access to the source-code or pretrained-model checkpoints, please send a request to [AcadGrants@service.microsoft.com](mailto:AcadGrants@service.microsoft.com) and cc to *pawang [_at_] iitkgp.ac.in* and *bsantraigi [_at_] gmail.com*.
 
-**Note:** The requesting third party (1) can download and use these deliverables for research as well as commercial use, (2) modify it as they like but should include citation to our work and include this readme, and (3) cannot redistribute strictly to any other organization.
+### Note
+
+The requesting third party
+1. **Can download and use these deliverables for research as well as commercial use,**
+2. **Modify it as they like but should include citation to our work and include this readme**, and
+3. **Cannot redistribute strictly to any other organization.**
 
 **Cite As**
 
