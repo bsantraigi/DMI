@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 tagline: Discourse Mutual Information
 url: https://getpoole.com
 paginate: 1
-baseurl: https://bsantraigi.github.io/DMI/
+baseurl: DMI/
 permalink: pretty
 
 # Build settings
