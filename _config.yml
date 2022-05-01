@@ -1,16 +1,16 @@
 
 # Setup
-title: Poole
+title: DMI
 description: >- # this means to ignore newlines until "baseurl:"
   Discourse Mutual Information
-tagline: The Jekyll Butler
+tagline: Discourse Mutual Information
 url: https://getpoole.com
 paginate: 1
 baseurl: ""
 permalink: pretty
 
 # Build settings
-theme: minima
+#theme: minima
 # Gems
 plugins:
   - jekyll-feed
