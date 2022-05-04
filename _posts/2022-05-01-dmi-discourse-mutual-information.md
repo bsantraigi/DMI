@@ -5,11 +5,11 @@ date:   2022-05-01 11:02:34 +0530
 categories: nlp dialog
 ---
 
-![DMI_model](/assets/dmi_model.png)
+![DMI_model](DMI/assets/dmi_model.png)
 
 This repository hosts the PyTorch-based implementation for the DMI model proposed in our NAACL 2022 paper - [**Representation Learning for Conversational Data using Discourse Mutual Information Maximization**](https://arxiv.org/abs/2112.05787).
 
-<!-- ![DMI_Cover](/assets/DMI-coverimage.png) -->
+<!-- ![DMI_Cover](DMI/assets/DMI-coverimage.png) -->
 
 ## Getting Access to the Source Code or Pretrained Models
 
