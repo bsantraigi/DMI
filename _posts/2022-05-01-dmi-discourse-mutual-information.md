@@ -1,18 +1,15 @@
 ---
 layout: post
-title: DMI - Discourse Mutual Information
+title: Introducing DMI
 date:   2022-05-01 11:02:34 +0530
 categories: nlp dialog
 ---
 
+![DMI_model](/assets/dmi_model.png)
+
 This repository hosts the PyTorch-based implementation for the DMI model proposed in our NAACL 2022 paper - [**Representation Learning for Conversational Data using Discourse Mutual Information Maximization**](https://arxiv.org/abs/2112.05787).
 
-## Requirements
-
-- wandb
-- transformers
-- datasets
-- torch 1.8.2 (lts)
+<!-- ![DMI_Cover](/assets/DMI-coverimage.png) -->
 
 ## Getting Access to the Source Code or Pretrained Models
 
@@ -35,6 +32,13 @@ The requesting third party
   year={2022}
 }
 ```
+
+## Requirements
+
+- wandb
+- transformers
+- datasets
+- torch 1.8.2 (lts)
 
 ## How to run?
 
