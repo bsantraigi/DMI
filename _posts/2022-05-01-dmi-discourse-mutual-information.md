@@ -36,12 +36,12 @@ Although many pretrained models exist for text or images, there have been relati
 
 ## Authors
 
-- [Bishal Santra]()
+- [Bishal Santra](https://bsantraigi.github.io)
 - [Sumegh Roychowdhury](https://scholar.google.com/citations?user=8T4DcYIAAAAJ&hl=en)
-- [Aishik Mandal]()
-- [Vasu Gurram]()
-- [Atharva Naik]()
-- [Manish Gupta]()
+- [Aishik Mandal](https://www.linkedin.com/in/aishikmandal/?originalSubdomain=in)
+- [Vasu Gurram](https://www.linkedin.com/in/vasu-gurram-a94687177/?originalSubdomain=in)
+- [Atharva Naik](https://github.com/atharva-naik)
+- [Manish Gupta](https://www.microsoft.com/en-us/research/people/gmanish/)
 - [Pawan Goyal](https://cse.iitkgp.ac.in/~pawang/index.html)
 
 ## Getting Access to the Source Code or Pretrained Models
