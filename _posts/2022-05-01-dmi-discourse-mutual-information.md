@@ -7,9 +7,42 @@ categories: nlp dialog
 
 ![DMI_model](assets/dmi_model.png)
 
-This repository hosts the PyTorch-based implementation for the DMI model proposed in our NAACL 2022 paper - [**Representation Learning for Conversational Data using Discourse Mutual Information Maximization**](https://arxiv.org/abs/2112.05787).
+## Table of Contents
 
-<!-- ![DMI_Cover](assets/DMI-coverimage.png) -->
+- [Abstract](#abstract)
+- [Paper](#paper)
+- [Intuition](#intuition)
+- [Results](#results)
+- [Error Analysis](#error-analysis)
+- [Contributors](#contributors)
+- [Getting Access](#getting-access-to-the-source-code-or-pretrained-models)
+
+## Abstract
+
+Although many pretrained models exist for text or images, there have been relatively fewer attempts to train representations specifically for dialog understanding. Prior works usually relied on finetuned representations based on generic text representation models like BERT or GPT-2. But such language modeling pretraining objectives do not take the structural information of conversational text into consideration. Although generative dialog models can learn structural features too, we argue that the structure-unaware word-by-word generation is not suitable for effective conversation modeling. We empirically demonstrate that such representations do not perform consistently across various dialog understanding tasks. Hence, we propose a structure-aware Mutual Information based loss-function DMI (Discourse Mutual Information) for training dialog-representation models, that additionally captures the inherent uncertainty in response prediction. Extensive evaluation on nine diverse dialog modeling tasks shows that our proposed DMI-based models outperform strong baselines by significant margins. 
+
+## Paper
+
+- The DMI model was proposed in our NAACL 2022 paper - [**Representation Learning for Conversational Data using Discourse Mutual Information Maximization**](https://arxiv.org/abs/2112.05787).
+
+
+## Intuition
+
+![DMI_Cover](assets/DMI-coverimage.png)
+
+## Results
+
+## Error Analysis
+
+## Authors
+
+- [Bishal Santra]()
+- [Sumegh Roychowdhury](https://scholar.google.com/citations?user=8T4DcYIAAAAJ&hl=en)
+- [Aishik Mandal]()
+- [Vasu Gurram]()
+- [Atharva Naik]()
+- [Manish Gupta]()
+- [Pawan Goyal](https://cse.iitkgp.ac.in/~pawang/index.html)
 
 ## Getting Access to the Source Code or Pretrained Models
 
@@ -33,7 +66,7 @@ The requesting third party
 }
 ```
 
-## Requirements
+<!-- ## Requirements
 
 - wandb
 - transformers
@@ -169,4 +202,4 @@ python pretrain.py \
   -re, --resume         2-stage pretrain: Resume training from a previous checkpoint?
   -rept RESUME_MODEL_PATH, --resume_model_path RESUME_MODEL_PATH
                         If ``Resuming'', path to ckpt file.
-```
+``` -->
