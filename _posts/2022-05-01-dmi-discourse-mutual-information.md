@@ -11,11 +11,13 @@ categories: nlp dialog
 
 - [Abstract](#abstract)
 - [Paper](#paper)
+- [Getting Access](#getting-access-to-the-source-code-or-pretrained-models)
 - [Intuition](#intuition)
 - [Results](#results)
 - [Error Analysis](#error-analysis)
-- [Contributors](#contributors)
-- [Getting Access](#getting-access-to-the-source-code-or-pretrained-models)
+- [Authors](#contributors)
+- [Acknowledgements](#acknowledgements)
+
 
 ## Abstract
 
@@ -24,25 +26,6 @@ Although many pretrained models exist for text or images, there have been relati
 ## Paper
 
 - The DMI model was proposed in our NAACL 2022 paper - [**Representation Learning for Conversational Data using Discourse Mutual Information Maximization**](https://arxiv.org/abs/2112.05787).
-
-
-## Intuition
-
-![DMI_Cover](assets/DMI-coverimage.png)
-
-## Results
-
-## Error Analysis
-
-## Authors
-
-- [Bishal Santra](https://bsantraigi.github.io)
-- [Sumegh Roychowdhury](https://scholar.google.com/citations?user=8T4DcYIAAAAJ&hl=en)
-- [Aishik Mandal](https://www.linkedin.com/in/aishikmandal/?originalSubdomain=in)
-- [Vasu Gurram](https://www.linkedin.com/in/vasu-gurram-a94687177/?originalSubdomain=in)
-- [Atharva Naik](https://github.com/atharva-naik)
-- [Manish Gupta](https://www.microsoft.com/en-us/research/people/gmanish/)
-- [Pawan Goyal](https://cse.iitkgp.ac.in/~pawang/index.html)
 
 ## Getting Access to the Source Code or Pretrained Models
 
@@ -65,6 +48,34 @@ The requesting third party
   year={2022}
 }
 ```
+
+## Intuition
+
+![DMI_Cover](assets/DMI-coverimage.png)
+
+
+## Results
+
+![results_combined](assets/results-combined.png)
+![results_ablations](assets/results-ablations.png)
+
+## Error Analysis
+
+![eintent-error](assets/eintent_error_analysis.png)
+
+## Authors
+
+- [Bishal Santra](https://bsantraigi.github.io)
+- [Sumegh Roychowdhury](https://scholar.google.com/citations?user=8T4DcYIAAAAJ&hl=en)
+- [Aishik Mandal](https://www.linkedin.com/in/aishikmandal/?originalSubdomain=in)
+- [Vasu Gurram](https://www.linkedin.com/in/vasu-gurram-a94687177/?originalSubdomain=in)
+- [Atharva Naik](https://github.com/atharva-naik)
+- [Manish Gupta](https://www.microsoft.com/en-us/research/people/gmanish/)
+- [Pawan Goyal](https://cse.iitkgp.ac.in/~pawang/index.html)
+
+## Acknowledgements
+
+This work was partially supported by Microsoft Academic Partnership Grant (MAPG) 2021. The first author was also supported by Prime Minister’s Research Fellowship (PMRF), India.
 
 <!-- ## Requirements
 
